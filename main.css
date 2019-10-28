@@ -1,0 +1,76 @@
+@keyframes piano-key{
+    0%{
+        border: 5rem solid blueviolet;
+    }
+    10%{
+        border: 5rem solid red;
+    }
+    20%{
+        border: 5rem solid green;
+    }
+    30%{
+        border: 5rem solid teal;
+    }
+    40%{
+        border: 5rem solid lavender;
+    }
+    50%{
+        border: 5rem solid gold;
+    }
+    60%{
+        border: 5rem solid crimson;
+    }
+    70%{
+        border: 5rem solid yellow;
+    }
+    80%{
+        border: 5rem solid orange;
+    }
+    90%{
+        border: 5rem solid fuchsia;
+    }
+    100%{
+
+        border:5rem solid #329;
+    }
+}
+body{
+    position: fixed;
+   
+}
+div{
+    top: 10vh;
+    font-size: 45px;
+    font-family: 'Courier New', Courier, monospace;
+}
+p{
+    font-size: 20px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+p:nth-of-type(1){
+    top: 20vh;
+}
+p:nth-of-type(2){
+    top: 30vh;
+}
+p:nth-of-type(3){
+    top: 40vh;
+}
+p:nth-of-type(4){
+    top: 50vh;
+}
+p:nth-of-type(5){
+    top: 60vh;
+}
+p:nth-of-type(6){
+    top: 70vh;
+}
+body{
+    position: fixed;
+    width: 30rem;
+    height: 25rem;
+
+    border: 5rem solid #329;
+
+    animation: piano-key 4s infinite alternate-reverse;
+}
